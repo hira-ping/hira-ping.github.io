@@ -1,0 +1,13 @@
+<style>
+  /* 1. 元の「更に」の文字サイズを0にして見えなくする */
+  .R-shortcutmenu-shortcuts .nav-title {
+    font-size: 0 !important;
+  }
+  
+  /* 2. 代わりに「More」という文字を疑似的に追加して表示する */
+  .R-shortcutmenu-shortcuts .nav-title::after {
+    content: "More";
+    font-size: 0.85rem;
+    font-weight: bold;
+  }
+</style>

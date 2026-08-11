@@ -1,0 +1,51 @@
+baseURL = 'https://example.org/'
+languageCode = 'ja'
+title = 'hira-ping'
+theme = 'relearn'
+
+# --- Relearnテーマの基本設定 ---
+[params]
+  # KaTeX（数式描画エンジン）をサイト全体で有効化
+  mathJaxInitialize = "{}" # もしMathJaxを使う場合はこちらを設定しますが、今回はKaTeXを推奨として進めます。RelearnはデフォルトでMathJax/KaTeXに対応しています。
+  # サイト全体で数式を有効化するRelearnの設定
+  math = true 
+  collapsibleMenu = true
+  themeVariant = "zen-light"
+  externalLinkTarget = "_blank"
+
+# --- 【最重要】数式のMarkdown誤変換を防ぐ設定 ---
+[markup.goldmark.extensions]
+  [markup.goldmark.extensions.passthrough]
+    enable = true
+    [markup.goldmark.extensions.passthrough.delimiters]
+      block = [['\[', '\]'], ['$$', '$$']]
+      inline = [['\(', '\)'], ['$', '$']]
+
+[markup.goldmark.parser]
+  [markup.goldmark.parser.attribute]
+    block = true
+
+[[menu.shortcuts]]
+  name = "<i class='fa-brands fa-github'></i> GitHub"
+  url = "https://github.com/hira-ping"
+  weight = 10
+
+[[menu.shortcuts]]
+  name = "<i class='fa-brands fa-linkedin'></i> LinkedIn"
+  url = "https://jp.linkedin.com/in/taira-hiraishi"
+  weight = 15
+
+[[menu.shortcuts]]
+  name = "<i class='fa-brands fa-x-twitter'></i> X (Twitter)"
+  url = "https://x.com/hira_ping"
+  weight = 20
+
+[[menu.shortcuts]]
+  name = "<i class='fa-solid fa-pen-nib'></i> note"
+  url = "https://note.com/hira_ping_1989"
+  weight = 30
+
+[[menu.shortcuts]]
+  name = "<i class='fa-solid fa-tags'></i> Tags"
+  url = "/tags/"
+  weight = 40
