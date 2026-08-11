@@ -1,5 +1,5 @@
 +++
-title = "数学実践コレクション"
+title = "数学 実践コレクション"
 weight = 20
 menuPre = "<i class='fa-solid fa-book-open' ></i> "
 +++
