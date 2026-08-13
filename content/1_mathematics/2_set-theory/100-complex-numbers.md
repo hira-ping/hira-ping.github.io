@@ -2,6 +2,8 @@
 title = "複素数（ℂ）"
 weight = 100
 date = 2026-08-11
+lastmod = 2026-08-12
+tags = ['Proof Pending']
 +++
 
 $\mathbb{R}$ は完備順序体として完成したが、一つの限界がある。多項式 $x^2 + 1 = 0$ の解が $\mathbb{R}$ に存在しない。本ノートでは直積 $\mathbb{R} \times \mathbb{R}$ に適切な演算を定めることで複素数体 $\mathbb{C}$ を構成し、体の公理を確認する。$\mathbb{Q} \to \mathbb{R}$ が位相的な構成（完備化）であったのに対し、$\mathbb{R} \to \mathbb{C}$ は代数的な構成（根の付加）である。
@@ -209,7 +211,7 @@ $\mathbb{C}$ の最も重要な性質は**代数的閉体**であることであ
 
 $$f(x) = c(x - \alpha_1)(x - \alpha_2) \cdots (x - \alpha_n), \qquad c, \alpha_1, \ldots, \alpha_n \in \mathbb{C}$$
 
->$\mathbb{Q} \to \mathbb{R}$ の構成は、有理数の穴を埋めるため無限の操作を必要とした。一方 $\mathbb{R} \to \mathbb{C}$ は $i$ という一元を追加するだけで代数的閉体になり、閉性が満たされる。これは非自明であり、代数学の基本定理の核心である。
+>$\mathbb{Q} \to \mathbb{R}$ の構成は、有理数の穴を埋めるため無限の操作を必要とした。一方 $\mathbb{R} \to \mathbb{C}$ は $i$ という一元を追加するだけで代数的閉体になる。これは非自明であり、代数学の基本定理の核心である。
 
 ---
 
