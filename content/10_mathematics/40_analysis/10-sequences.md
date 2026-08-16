@@ -2,9 +2,10 @@
 title = "数列と極限"
 weight = 10
 date = 2026-08-11
+lastmod = 2026-08-12
 +++
 
-[ノート：実数](10_mathematics/20_set-theory/80-reals/)で得た $\mathbb{R}$ の上で、数列の収束を厳密に定義する。$\varepsilon$-$N$ 論法による収束の定義を出発点に、極限の基本性質を整理し、完備性（上限性質）と同値な諸命題を導く。
+[ノート：実数（ℝ）](10_mathematics/20_set-theory/80-reals/)で得た $\mathbb{R}$ の上で、数列の収束を厳密に定義する。$\varepsilon$-$N$ 論法による収束の定義を出発点に、極限の基本性質を整理し、完備性（上限性質）と同値な諸命題を導く。
 
 ---
 
@@ -60,7 +61,7 @@ $+\infty, -\infty$ は実数ではなく、あくまで「どこまでも大き�
 **証明.** $\varepsilon > 0$ を任意にとる。
 仮定より、ある $N_1, N_2 \in \mathbb{N}$ が存在して、
 $n \geq N_1$ で $|a_n - L| < \varepsilon/2$、$n \geq N_2$ で $|a_n - L'| < \varepsilon/2$。
-$N = \max(N_1, N_2)$ とおくと、$n \geq N$ で
+$N = \max (N_1, N_2)$ とおくと、$n \geq N$ で
 
 $$|L - L'| \leq |L - a_n| + |a_n - L'| < \varepsilon/2 + \varepsilon/2 = \varepsilon$$
 
