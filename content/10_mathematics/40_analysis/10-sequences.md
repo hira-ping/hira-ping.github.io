@@ -4,7 +4,7 @@ weight = 10
 date = 2026-08-11
 +++
 
-[ノート：実数](1_mathematics/2_set-theory/80-reals/)で得た $\mathbb{R}$ の上で、数列の収束を厳密に定義する。$\varepsilon$-$N$ 論法による収束の定義を出発点に、極限の基本性質を整理し、完備性（上限性質）と同値な諸命題を導く。
+[ノート：実数](10_mathematics/20_set-theory/80-reals/)で得た $\mathbb{R}$ の上で、数列の収束を厳密に定義する。$\varepsilon$-$N$ 論法による収束の定義を出発点に、極限の基本性質を整理し、完備性（上限性質）と同値な諸命題を導く。
 
 ---
 
@@ -39,7 +39,7 @@ $(a_n)$ が何らかの $L \in \mathbb{R}$ に収束するとき**収束列**と
 
 > **論理式の読み方：** 「どんな正の実数 $\varepsilon$ をとっても、ある番号 $N$ が存在して、$N$ 以降のすべての項が $L$ から距離 $\varepsilon$ 未満に収まる」。$\varepsilon$ は要求精度、$N$ はその精度が保証される番号である。
 >
->厳密な意味は、[ノート：一階述語論理の記法と推論規則](1_mathematics/1_foundations-of-mathematics/10_logics/)参照
+>厳密な意味は、[ノート：一階述語論理の記法と推論規則](10_mathematics/10_foundations-of-mathematics/10_logics/)参照
 
 ### 定義：正負の無限大への発散
 
@@ -126,7 +126,7 @@ $\square$
 
 ## 完備性の同値な言い換え
 
-[ノート：実数](1_mathematics/2_set-theory/80-reals/)で定義した完備性（上限性質）が、数列の収束に関する以下の命題と同値であることを示す。
+[ノート：実数](10_mathematics/20_set-theory/80-reals/)で定義した完備性（上限性質）が、数列の収束に関する以下の命題と同値であることを示す。
 
 $$\text{上限性質} \iff \text{単調収束定理} \iff \text{区間縮小法} \iff \text{BW定理} \iff \text{コーシーの判定法}$$
 

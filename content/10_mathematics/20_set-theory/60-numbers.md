@@ -20,7 +20,7 @@ $\omega$ には加法と乗法があるが、減法（$3 - 5$ のような）と
 
 **有理数 $\mathbb{Q}$：** $a \div b$ という比をペア $(a, b) \in \mathbb{Z} \times (\mathbb{Z} \setminus \\{0\\})$ で表し、同じ比を持つペアを同一視する。
 
-いずれも、同値関係による商集合の構成（[ノート：同値関係・同値類・商集合](1_mathematics/2_set-theory/30-equivalence/)）である。
+いずれも、同値関係による商集合の構成（[ノート：同値関係・同値類・商集合](10_mathematics/20_set-theory/30-equivalence/)）である。
 
 ---
 
