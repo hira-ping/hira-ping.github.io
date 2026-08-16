@@ -1,5 +1,6 @@
 baseURL = "https://hira-ping.github.io/"
 languageCode = 'ja'
+timeZone = "Asia/Tokyo"
 title = 'hira-ping'
 theme = 'relearn'
 
