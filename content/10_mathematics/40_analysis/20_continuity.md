@@ -1,7 +1,7 @@
 +++
 title = "連続性"
 weight = 20
-date = 2026-08-16
+date = 2026-08-17
 +++
 
 [ノート：実数（ℝ）](10_mathematics/20_set-theory/80-reals/)と[ノート：数列と極限](10_mathematics/40_analysis/10-sequences/)を踏まえ、関数の連続性を厳密に定義する。$\varepsilon$-$\delta$ 論法による定義を出発点に、連続関数の基本性質を整理し、完備性を用いて中間値定理・最大値定理を証明する。
