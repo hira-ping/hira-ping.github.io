@@ -2,7 +2,6 @@
 title = "数学"
 weight = 10
 chapter = true
-menuPre = "<i class='fa-solid fa-book-open' ></i> "
 +++
 
 学生時代に一度勉強したけど忘れてしまったことを自分なりにもう一度再構成しているもの。ここでは主に、理論の根幹となる部分に絞ってまとめている。
