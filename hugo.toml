@@ -11,6 +11,7 @@ theme = 'relearn'
   # サイト全体で数式を有効化するRelearnの設定
   math = true 
   collapsibleMenu = true
+  alwaysopen = false
   themeVariant = "zen-light"
   externalLinkTarget = "_blank"
 
