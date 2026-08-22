@@ -92,7 +92,7 @@ $$\forall x, \exists y, \forall z, \bigl(z \in y \leftrightarrow \forall w, (w \
 
 $$\exists x, \bigl(\emptyset \in x \;\land\; \forall y, (y \in x \rightarrow y \cup \{y\} \in x)\bigr)$$
 
-$\emptyset$ を含み、$y$ を含めば $y \cup \{y\}$ も含む帰納的集合が存在する。これにより自然数全体 $\omega$ の存在が保証される（$\omega$ の構成は[ノート：自然数](10_mathematics/20_set-theory/50-naturals/)で扱う）。
+$\emptyset$ を含み、$y$ を含めば $y \cup \{y\}$ も含む帰納的集合が存在する。これにより自然数全体 $\omega$ の存在が保証される（$\omega$ の構成は[ノート：自然数](40_knowledge-base/10_mathematics/20_set-theory/50-naturals/)で扱う）。
 
 $\emptyset$ や $\cup$ を略記として使わない展開形：
 

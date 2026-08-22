@@ -4,7 +4,7 @@ weight = 20
 date = 2026-08-17
 +++
 
-[ノート：実数（ℝ）](10_mathematics/20_set-theory/80-reals/)と[ノート：数列と極限](10_mathematics/40_analysis/10-sequences/)を踏まえ、関数の連続性を厳密に定義する。$\varepsilon$-$\delta$ 論法による定義を出発点に、連続関数の基本性質を整理し、完備性を用いて中間値定理・最大値定理を証明する。
+[ノート：実数（ℝ）](40_knowledge-base/10_mathematics/20_set-theory/80-reals/)と[ノート：数列と極限](40_knowledge-base/10_mathematics/40_analysis/10-sequences/)を踏まえ、関数の連続性を厳密に定義する。$\varepsilon$-$\delta$ 論法による定義を出発点に、連続関数の基本性質を整理し、完備性を用いて中間値定理・最大値定理を証明する。
 
 $\mathbb{R}$ の元を**点**と呼び、数直線として視覚化する。これは、$\mathbb{R}$ が一次元の連続した線であるという直感に対応するが、その正当化（$\mathbb{R}$ が距離空間・位相空間として幾何学的な直線と同一視できること）は位相空間論のノートに委ねる。
 
@@ -99,7 +99,7 @@ $f(x_n)$ は $f(a)$ に収束しない。$\square$
 
 $f, g: A \to \mathbb{R}$ がともに $a \in A$ で連続ならば、$f + g$、$f - g$、$fg$ も $a$ で連続である。また $g(a) \neq 0$ ならば $f/g$ も $a$ で連続である。
 
-**証明.** 数列の極限の四則演算（[ノート：数列と極限](10_mathematics/40_analysis/10-sequences/#%E5%AE%9A%E7%90%863%E6%A5%B5%E9%99%90%E3%81%AE%E5%9B%9B%E5%89%87%E6%BC%94%E7%AE%97)）
+**証明.** 数列の極限の四則演算（[ノート：数列と極限](40_knowledge-base/10_mathematics/40_analysis/10-sequences/#%E5%AE%9A%E7%90%863%E6%A5%B5%E9%99%90%E3%81%AE%E5%9B%9B%E5%89%87%E6%BC%94%E7%AE%97)）
 と連続性の数列による特徴づけから直ちに従う。
 
 $x_n \to a$ とすると $f(x_n) \to f(a)$、$g(x_n) \to g(a)$ だから、$(f+g)(x_n) = f(x_n) + g(x_n) \to f(a) + g(a) = (f+g)(a)$。他も同様。$\square$
@@ -180,7 +180,7 @@ $c + \delta \in S$ となる $\delta \in (0, \delta)$ が存在する。これ�
 
 $f$ が有界でないとすると、各 $n \in \mathbb{N}$ に対し $|f(x_n)| > n$ となる $x_n \in [a, b]$ が存在する。
 $(x_n)$ は有界（$a \leq x_n \leq b$）だから、
-BW定理（[ノート：数列と極限](10_mathematics/40_analysis/10-sequences/#%E5%AE%9A%E7%90%867%E3%83%9C%E3%83%AB%E3%83%84%E3%82%A1%E3%83%BC%E3%83%8E%E3%83%AF%E3%82%A4%E3%82%A8%E3%83%AB%E3%82%B7%E3%83%A5%E3%83%88%E3%83%A9%E3%82%B9%E3%81%AE%E5%AE%9A%E7%90%86)）
+BW定理（[ノート：数列と極限](40_knowledge-base/10_mathematics/40_analysis/10-sequences/#%E5%AE%9A%E7%90%867%E3%83%9C%E3%83%AB%E3%83%84%E3%82%A1%E3%83%BC%E3%83%8E%E3%83%AF%E3%82%A4%E3%82%A8%E3%83%AB%E3%82%B7%E3%83%A5%E3%83%88%E3%83%A9%E3%82%B9%E3%81%AE%E5%AE%9A%E7%90%86)）
 より収束する部分列 $(x_{n_k})$ が存在する。その極限を $c$ とする。
 $c \in [a, b]$ であり、$f$ の連続性より $f(x_{n_k}) \to f(c)$。
 しかし、$|f(x_{n_k})| > n_k \to \infty$ だから、$f(x_{n_k})$ は発散し、矛盾する。$\square$

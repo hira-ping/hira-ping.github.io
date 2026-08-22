@@ -5,7 +5,7 @@ date = 2026-08-21
 tags = ['Proof Pending']
 +++
 
-[ノート：数列と極限](10_mathematics/40_analysis/10-sequences/index.html)・[ノート：微分](10_mathematics/40_analysis/30-differentiation/index.html)を踏まえ、級数を定義する。級数は部分和の数列の極限として定義され、収束の議論は数列の収束に帰着する。べき級数を導入し、テイラー展開を微分の応用として説明する。
+[ノート：数列と極限](40_knowledge-base/10_mathematics/40_analysis/10-sequences/index.html)・[ノート：微分](40_knowledge-base/10_mathematics/40_analysis/30-differentiation/index.html)を踏まえ、級数を定義する。級数は部分和の数列の極限として定義され、収束の議論は数列の収束に帰着する。べき級数を導入し、テイラー展開を微分の応用として説明する。
 
 ---
 

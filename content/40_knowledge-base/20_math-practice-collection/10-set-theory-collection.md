@@ -14,7 +14,7 @@ lastmod = 2026-08-17
 ## 集合の包含と相等
 
 ### 集合の相等の証明テクニック
-[← 公理的集合論の基礎](10_mathematics/10_foundations-of-mathematics/20_foundations_of_set-theory/)
+[← 公理的集合論の基礎](40_knowledge-base/10_mathematics/10_foundations-of-mathematics/20_foundations_of_set-theory/)
 
 $$A = B \iff A \subseteq B \land B \subseteq A$$
 
@@ -25,7 +25,7 @@ $$A = B \iff A \subseteq B \land B \subseteq A$$
 ## 集合演算
 
 ### 分配律
-[← 集合演算とド・モルガンの法則](10_mathematics/20_set-theory/10-operations/)
+[← 集合演算とド・モルガンの法則](40_knowledge-base/10_mathematics/20_set-theory/10-operations/)
 
 $$A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$$
 
@@ -52,7 +52,7 @@ x \in A \cup (B \cap C)
 \end{align*}$$
 
 ### ド・モルガンの法則（一般化）
-[← 集合演算とド・モルガンの法則](10_mathematics/20_set-theory/10-operations/)
+[← 集合演算とド・モルガンの法則](40_knowledge-base/10_mathematics/20_set-theory/10-operations/)
 
 任意の集合族 $\{A_\lambda\}_{\lambda \in \Lambda}$ に対して成立する。
 
@@ -82,7 +82,7 @@ x \in \left(\bigcup_{\lambda \in \Lambda} A_\lambda\right)^c
 ## 順序対
 
 ### 順序対の特徴づけ定理
-[← 写像](10_mathematics/20_set-theory/20-maps/)
+[← 写像](40_knowledge-base/10_mathematics/20_set-theory/20-maps/)
 
 $$\langle a, b \rangle = \langle c, d \rangle \iff a = c \land b = d$$
 
@@ -98,7 +98,7 @@ $(\Leftarrow)$ は自明。$(\Rightarrow)$ を示す。$\{\{a\},\{a,b\}\} = \{\{
 ## 写像
 
 ### 像の基本補題
-[← 写像](10_mathematics/20_set-theory/20-maps/)
+[← 写像](40_knowledge-base/10_mathematics/20_set-theory/20-maps/)
 
 $$a \in S \implies f(a) \in f(S)$$
 
@@ -123,7 +123,7 @@ $f(a) \in f(S)$ が意味するのは「$S$ の中に、$a$ と同じ行き先�
 部分集合 $S = \{1\}$ とし、$a = 2$ とすると、$f(a) = f(2) = 0 \in f(S)$ は真であるが、$a = 2 \notin \{1\} = S$ なので $a \in S$ は偽となる。$\square$
 
 ### 像・逆像の基本性質
-[← 写像](10_mathematics/20_set-theory/20-maps/)
+[← 写像](40_knowledge-base/10_mathematics/20_set-theory/20-maps/)
 
 $f: A \to B$、$S, S' \subseteq A$、$T, T' \subseteq B$ に対して以下が成り立つ。
 
@@ -247,7 +247,7 @@ y \in f(f^{-1}(T)) &\iff \exists x \in f^{-1}(T),\, f(x) = y \\
 \end{align*}$$
 
 ### 像と逆像の三条件同値（ガロア接続）
-[写像](10_mathematics/20_set-theory/20-maps/)
+[写像](40_knowledge-base/10_mathematics/20_set-theory/20-maps/)
 
 写像 $f: X \to Y$ と部分集合 $S \subseteq X$、$T \subseteq Y$ に対して、以下の3条件はすべて同値である。
 
@@ -292,7 +292,7 @@ $S \subseteq f^{-1}(T)$ と仮定する。任意の $x \in S$ をとると、仮
 ## 同値関係と商集合
 
 ### 同値類の基本性質
-[← 同値関係・同値類・商集合](10_mathematics/20_set-theory/30-equivalence/)
+[← 同値関係・同値類・商集合](40_knowledge-base/10_mathematics/20_set-theory/30-equivalence/)
 
 $\sim$ を $A$ 上の同値関係とする。
 1. **代表元の取り替え:** $a \sim b \iff [a] = [b]$
@@ -317,7 +317,7 @@ $(\Leftarrow)$ $[a] = [b]$ を仮定する。反射律より $a \in [a] = [b]$�
 対称律より $a \sim x$、推移律より $a \sim b$。性質1より $[a] = [b]$。$\square$
 
 ### Well-definedness の証明テンプレート
-[← 同値関係・同値類・商集合](10_mathematics/20_set-theory/30-equivalence/)
+[← 同値関係・同値類・商集合](40_knowledge-base/10_mathematics/20_set-theory/30-equivalence/)
 
 商集合 $A/{\sim}$ 上の演算を $[a] \star [b] := [a \ast b]$ と定義する際、以下が成り立つことを示さなければならない。
 
@@ -330,7 +330,7 @@ $$a \sim a' \land b \sim b' \implies a \ast b \sim a' \ast b'$$
 ## 自然数
 
 ### 数学的帰納法の原理
-[← 自然数](10_mathematics/20_set-theory/50-naturals/)
+[← 自然数](40_knowledge-base/10_mathematics/20_set-theory/50-naturals/)
 
 自然数 $\omega$ に関する性質（述語）$P(n)$ について、以下が成り立つ。
 
@@ -353,7 +353,7 @@ $A \subseteq \omega$ は定義より明らかなので $A = \omega$ となり、
 集合 $A$ が**有限集合**であるとは、ある自然数 $n \in \omega$ が存在して、$A$ と $n$ の間に全単射が存在すること（$A \sim n$）をいう。有限集合に関する直感的な事実は、すべて自然数の帰納法を用いて厳密に証明される。
 
 ### 有限集合の和集合の要素数（包除原理）
-[← 自然数](10_mathematics/20_set-theory/50-naturals/)
+[← 自然数](40_knowledge-base/10_mathematics/20_set-theory/50-naturals/)
 
 有限集合
 $A, B$ の要素数をそれぞれ
@@ -407,14 +407,14 @@ $$|A \cup B| = |A| + |B| - |A \cap B|$$
 が得られる。$\square$
 
 ### 鳩の巣原理
-[← 自然数](10_mathematics/20_set-theory/50-naturals/)
+[← 自然数](40_knowledge-base/10_mathematics/20_set-theory/50-naturals/)
 
 自然数 $m, n \in \omega$ について、$m > n$ ならば、$m$ から $n$ への単射は存在しない。
 （したがって、要素数が $m$ の有限集合から $n$ の有限集合への単射も存在しない）。
 
 > **注記：自然数を集合として扱う記法について**
 >
-> ここで「$m$ から $n$ への単射」と書かれているのはタイポや比喩ではない。[ノート：自然数](10_mathematics/20_set-theory/50-naturals)で見た通り、ZFCにおける自然数はフォン・ノイマンの順序数として $n = \{0, 1, \ldots, n-1\}$ と定義される。つまり、自然数 $n$ はちょうど $n$ 個の要素をもつ集合そのものである。したがって、写像 $f: m \to n$ とは、文字通り要素数 $m$ の集合から要素数 $n$ の集合への写像を意味している。
+> ここで「$m$ から $n$ への単射」と書かれているのはタイポや比喩ではない。[ノート：自然数](40_knowledge-base/10_mathematics/20_set-theory/50-naturals)で見た通り、ZFCにおける自然数はフォン・ノイマンの順序数として $n = \{0, 1, \ldots, n-1\}$ と定義される。つまり、自然数 $n$ はちょうど $n$ 個の要素をもつ集合そのものである。したがって、写像 $f: m \to n$ とは、文字通り要素数 $m$ の集合から要素数 $n$ の集合への写像を意味している。
 
 **使い方：** 要するに、部屋の数より人の数の方が多いなら、必ず誰か2人は同じ部屋に入るということ。存在証明（重複するペアが$\exists$すること）を示すための強力なツールとなる。
 
@@ -441,7 +441,7 @@ $m$ から $x$ を除いた集合 $m \setminus \{x\}$ は要素数 $m-1$ であ�
 よって $n = k+1$ でも単射は存在せず、すべての自然数 $n$ で定理が成り立つ。$\square$
 
 ### 有限集合上の自己単射・自己全射
-[← 写像](10_mathematics/20_set-theory/20-maps/)
+[← 写像](40_knowledge-base/10_mathematics/20_set-theory/20-maps/)
 
 有限集合 $A$ から $A$ 自身への写像 $f: A \to A$ について、以下の3つは同値である。
 
@@ -463,7 +463,7 @@ $(2 \implies 1)$ も同様に要素数を比較することで示される。$\s
 
 ## 順序関係
 ### 上限（下限）と最大値（最小値）の関係
-[← 順序関係](10_mathematics/20_set-theory/70-order-relations/)
+[← 順序関係](40_knowledge-base/10_mathematics/20_set-theory/70-order-relations/)
 
 空でない部分集合 $S \subset \mathbb{R}$ について、上限 $\sup S$ が存在し、かつ $\sup S \in S$ ならば、$\sup S = \max S$ である。
 同様に、下限 $\inf S$ が存在し、かつ $\inf S \in S$ ならば、$\inf S = \min S$ である。
