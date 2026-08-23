@@ -1,6 +1,6 @@
 +++
 title = "Knowledge Base"
-weight = 4
+weight = 5
 chapter = true
 menuPre = "<i class='fa-solid fa-book' ></i> "
 +++
