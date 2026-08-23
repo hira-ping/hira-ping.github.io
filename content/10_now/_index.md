@@ -29,6 +29,7 @@ lastmod = 2026-08-22
     - 広義積分
     - 積分の平均値の定理
   - [ ] 微積分の計算テクニックを実践コレクションに追加 (Entry:2026-08-19)
+  - [ ] 無限次元ベクトル空間の基底の存在の証明(Entry:2026-08-23)
 - **論文**
   - [ ] Dinur et al. 2003 _ Revealing information while preserving privacy(Entry:2026-08-22)
   - [ ] Adam et al. 1989 _ Security-control methods for statistical databases: a comparative study(Entry:2026-08-22)
@@ -40,4 +41,4 @@ lastmod = 2026-08-22
 - [ ] [統計の入門（国際高等教育院附属データ科学イノベーション教育研究センター）](https://repository.kulib.kyoto-u.ac.jp/items/6078c306-f759-4671-95db-88c8e421e5b2)(Entry:2026-08-11)
 
 ## Drafts
-- [下書き（テスト）](draft/draft.md)
+- [数学ノートの全体像（仮）](draft/draft.md)
