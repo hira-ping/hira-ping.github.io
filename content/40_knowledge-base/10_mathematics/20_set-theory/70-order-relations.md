@@ -177,7 +177,7 @@ $\forall b < a^*,\; b \notin Q$、すなわち $\forall b < a^*,\; P(b)$。
 
 ## 既存の数体系の順序の振り返り
 
-[ノート：自然数](40_knowledge-base/10_mathematics/20_set-theory/50-naturals/)、[ノート：数体系の構成（ℤ・ℚ）](40_knowledge-base/10_mathematics/20_set-theory/60-numbers/)で構成した数体系における順序が、上記の定義をどのように満たすかを確認する。
+[ノート：自然数](40_knowledge-base/10_mathematics/20_set-theory/50-naturals/)、[ノート：整数・有理数（ℤ・ℚ）](40_knowledge-base/10_mathematics/20_set-theory/60-numbers/)で構成した数体系における順序が、上記の定義をどのように満たすかを確認する。
 
 ### 自然数 $\mathbb{N}$ の順序
 
