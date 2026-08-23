@@ -7,8 +7,6 @@ chapter = false
 citekey = "adamSecuritycontrolMethodsStatistical1989"
 +++
 
-### 論文情報
-
 > **Title**: Security-control methods for statistical databases: a comparative study
 >
 > **Authors**: Nabil R. Adam, John C. Worthmann
