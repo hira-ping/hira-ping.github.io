@@ -6,5 +6,6 @@
 obsidian-templates/
 
 content/30_reading-notes/papers-japanese-translation
+static/images/favicon.png
 
 .DS_Store
