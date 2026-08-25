@@ -15,13 +15,13 @@ lastmod = 2026-08-25
 - 確率変数の収束と大数の完全法則
 
 1. MIT（マサチューセッツ工科大学）
-	- 資料名: Advanced Stochastic Processes (Lecture 12) 
-	- 大学院レベルの高等確率過程の講義ノート
+	- 資料名: Advanced Stochastic Processes
+	- 大学院レベルの確率過程の講義ノート
 2. Stanford University（スタンフォード大学）
-	- 資料名: Randomized Algorithms and Probabilistic Analysis (Lecture 16)
+	- 資料名: Randomized Algorithms and Probabilistic Analysis
 	- ランダムアルゴリズムと確率的方法に関する講義ノート
- 3. TTIC (シカゴ大学関連の計算機科学研究所)
-	- 資料名: Mathematical Toolkit (Lecture 15)
+3. TTIC (シカゴ大学関連の計算機科学研究所)
+	- 資料名: Mathematical Toolkit
 	- 理論計算機科学に必要な数学的道具を網羅する講義ノート
 
 
