@@ -43,7 +43,7 @@ $$　m < n \iff m \in n　$$
 
 $$S(n) := n \cup \{n\}$$
 
-対の公理により $\\{n\\}$ が存在し、和集合の公理により $n \cup \\{n\\}$ が存在する。
+対の公理により $\{n\}$ が存在し、和集合の公理により $n \cup \{n\}$ が存在する。
 
 $$S(\emptyset) = \emptyset \cup \{\emptyset\} = \{\emptyset\} = 1 \checkmark$$
 
