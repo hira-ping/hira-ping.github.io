@@ -36,9 +36,9 @@ lastmod = 2026-08-22
 
 ## On My Radar
 
-- [ ] [Advanced Stochastic Processes](https://ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/)
-- [ ] https://home.ttic.edu/~madhurt/courses/toolkit2025/index.html
-- [ ] 
+- [ ] [MIT: Advanced Stochastic Processes](https://ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/)(Entry:2026-08-25)
+- [ ] [Stanford University: Randomized Algorithms and Probabilistic Analysis](https://web.stanford.edu/class/cs265/#classes)(Entry:2026-08-25)
+- [ ] [TTIC: Mathematical Toolkit](https://home.ttic.edu/~madhurt/courses/toolkit2025/index.html)(Entry:2026-08-25)
 
 - [ ] [ハーバード大学が無料で公開している入門講義「CS50」](https://cs50.jp/)(Entry:2026-08-11)
 - [ ] [60分で学ぶ数理最適化（大阪大学 Shunji Umetani）](https://speakerdeck.com/umepon/mathematical-optimization-in-60-minutes)(Entry:2026-08-11)
