@@ -15,6 +15,9 @@ theme = 'relearn'
   themeVariant = "zen-light"
   externalLinkTarget = "_blank"
 
+[markup.goldmark.renderer]
+unsafe = true
+
 # --- 【最重要】数式のMarkdown誤変換を防ぐ設定 ---
 [markup.goldmark.extensions]
   [markup.goldmark.extensions.passthrough]
