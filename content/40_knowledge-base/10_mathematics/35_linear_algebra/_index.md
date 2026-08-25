@@ -1,5 +1,5 @@
 +++
-title = "代数学-2 (線形代数)"
+title = "線形代数 (代数学-2)"
 chapter = true
 weight = 35
 +++
