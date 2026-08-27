@@ -56,7 +56,9 @@ $$\langle \mathbf{u}, \mathbf{v} \rangle := \sum_{i=1}^n \overline{u_i} v_i = \m
 ただし $\mathbf{u}^* := \bar{\mathbf{u}}^T$ は**共役転置**。
 
 - **(I1)**：$\langle \mathbf{u}, c\mathbf{v}\rangle = \mathbf{u}^* (c\mathbf{v}) = c(\mathbf{u}^* \mathbf{v}) = c\langle\mathbf{u},\mathbf{v}\rangle$ ✓
+
 - **(I2)**：$\overline{\langle\mathbf{v},\mathbf{u}\rangle} = \overline{\mathbf{v}^* \mathbf{u}} = (\mathbf{v}^* \mathbf{u})^* = \mathbf{u}^* \mathbf{v} = \langle\mathbf{u},\mathbf{v}\rangle$ ✓
+
 - **(I3)**：$\langle\mathbf{v},\mathbf{v}\rangle = \mathbf{v}^*\mathbf{v} = \sum_i|v_i|^2 \geq 0$ かつ、等号成立 $\iff \mathbf{v} = \mathbf{0}$ ✓
 
 $\mathbb{K} = \mathbb{R}$ の場合、共役が恒等なので $\langle\mathbf{u},\mathbf{v}\rangle = \mathbf{u}^T\mathbf{v} = \sum_i u_iv_i$ となり、$\mathbb{R}^n$ の標準内積に一致する。
@@ -233,18 +235,20 @@ $V$ を内積空間、$\{\mathbf{a}_1, \ldots, \mathbf{a}_n\}$ を $V$ の線形
 
 $$\mathbf{u}_1 := \mathbf{a}_1, \qquad \mathbf{e}_1 := \frac{\mathbf{u}_1}{\|\mathbf{u}_1\|}$$
 
-$k = 2, \ldots, n$ に対して再帰的に：
+$k = 2, \ldots, n$ に対して再帰的に
 
 $$\mathbf{u}_k := \mathbf{a}_k - \sum_{j=1}^{k-1} \langle \mathbf{e}_j, \mathbf{a}_k \rangle\, \mathbf{e}_j, \qquad \mathbf{e}_k := \frac{\mathbf{u}_k}{\|\mathbf{u}_k\|}$$
 
 **証明.**
 
 帰納法で示す。各ステップで
-$$\mathbf{u}_k \neq \mathbf{0}$$
+$\mathbf{u}_k \neq \mathbf{0}$
 であることをまず確認する。
 
-$$\mathbf{u}_k = \mathbf{0}$$ とすると
-$$\mathbf{a}_k = \sum_{j<k} \langle \mathbf{e}_j, \mathbf{a}_k \rangle \mathbf{e}_j \in \mathrm{span}\{\mathbf{e}_1,\ldots,\mathbf{e}_{k-1}\} = \mathrm{span}\{\mathbf{a}_1,\ldots,\mathbf{a}_{k-1}\}$$
+$\mathbf{u}_k = \mathbf{0}$ とすると
+
+$$\mathbf{a}_k = \sum_{j < k} \langle \mathbf{e}_j, \mathbf{a}_k \rangle \mathbf{e}_j \in \mathrm{span}\{\mathbf{e}_1,\ldots,\mathbf{e}_{k-1}\} = \mathrm{span}\{\mathbf{a}_1,\ldots,\mathbf{a}_{k-1}\}$$
+
 となり、線形独立性に矛盾。
 
 直交性：$l < k$ のとき、$\mathbf{e}_l$ を第1引数に置いて計算する
@@ -258,7 +262,7 @@ $$\langle \mathbf{e}_l, \mathbf{u}_k \rangle = \langle \mathbf{e}_l, \mathbf{a}_
 
 > **$\mathbf{u}_k$ の幾何的意味：**
 >
->$\sum_{j<k}\langle \mathbf{e}_j, \mathbf{a}_k \rangle \mathbf{e}_j$ は、
+>$\sum_{j < k}\langle \mathbf{e}_j, \mathbf{a}_k \rangle \mathbf{e}_j$ は、
 >$\mathbf{a}_k$ の $\mathrm{span}\{\mathbf{e}_1,\ldots,\mathbf{e}_{k-1}\}$ への**正射影**である。
 >$\mathbf{u}_k$ はそれを引いた残り——$\mathbf{a}_k$
 >からすでに正規直交化した部分空間への成分を除いた、純粋に新しい方向の部分。
