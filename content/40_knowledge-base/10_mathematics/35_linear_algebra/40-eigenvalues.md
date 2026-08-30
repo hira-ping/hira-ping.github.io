@@ -25,7 +25,7 @@ $$A\mathbf{v} = \lambda \mathbf{v}$$
 > **幾何的意味：**
 >
 > 固有ベクトルは $A$ による線形写像で方向が変わらないベクトルである。
-> 固有値 $\lambda \in \mathbb{C}$ を極形式 $\lambda = re^{i\theta}$（$r = |\lambda| \geq 0$、$\theta = \arg\lambda$）で表すと、$A\mathbf{v} = \lambda\mathbf{v}$ の作用は次の二段階に分解される：
+> 固有値 $\lambda \in \mathbb{C}$ を極形式 $\lambda = re^{i\theta}$（$r = |\lambda| \geq 0$、$\theta = \arg\lambda$）で表すと、$A\mathbf{v} = \lambda\mathbf{v}$ の作用は次の二段階に分解される。
 >
 > 1. **スケール変化**：絶対値 $r = |\lambda|$ 
 >倍にベクトルを伸縮する。
@@ -100,7 +100,7 @@ $$P^{-1}AP = \Lambda = \begin{pmatrix} \lambda_1 & & \\ & \ddots & \\ & & \lambd
 
 > **基底変換としての解釈：**
 >
-> $A = P\Lambda P^{-1}$、あるいは $P^{-1}AP = \Lambda$ という式は、線形写像の基底変換の視点から見るとよくわかる。任意のベクトル $\mathbf{x}$ に対する $A$ の作用 $A\mathbf{x}$ を、$A = P\Lambda P^{-1}$ と分解して右から順に読むと：
+> $A = P\Lambda P^{-1}$、あるいは $P^{-1}AP = \Lambda$ という式は、線形写像の基底変換の視点から見るとよくわかる。任意のベクトル $\mathbf{x}$ に対する $A$ の作用 $A\mathbf{x}$ を、$A = P\Lambda P^{-1}$ と分解して右から順に読むと、
 >
 > 1. **$P^{-1}\mathbf{x}$（視点の乗り換え）：** 標準基底での座標 $\mathbf{x}$ を、固有ベクトル $\{\mathbf{p}_1, \ldots, \mathbf{p}_n\}$ を基底とする新しい座標系 $\mathbf{y}$ に変換する。
 > 2. **$\Lambda\mathbf{y}$（独立したスカラー倍）：** 新しい座標系においては、行列の作用は成分同士が混ざり合う複雑なものではなく、第 $i$ 成分を単に $\lambda_i$ 倍するという独立した操作（対角行列 $\Lambda$）になる。
