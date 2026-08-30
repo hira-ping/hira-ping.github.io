@@ -205,7 +205,7 @@ $$\varphi(m + n) = \varphi(m) + \varphi(n), \qquad \varphi(r \cdot m) = r \cdot 
 
 体上の加群準同型を特に**線形写像**という。全単射な線形写像を**同型**といい $M \cong N$ と書く。
 
-### 定義：核・像・商加群
+### 定義：核・像
 
 加群準同型 $\varphi: M \to N$ に対して：
 
