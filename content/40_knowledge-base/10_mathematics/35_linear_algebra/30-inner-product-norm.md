@@ -264,8 +264,8 @@ $$\langle \mathbf{e}_l, \mathbf{u}_k \rangle = \langle \mathbf{e}_l, \mathbf{a}_
 >
 >$\sum_{j < k}\langle \mathbf{e}_j, \mathbf{a}_k \rangle \mathbf{e}_j$ は、
 >$\mathbf{a}_k$ の $\mathrm{span}\{\mathbf{e}_1,\ldots,\mathbf{e}_{k-1}\}$ への**正射影**である。
->$\mathbf{u}_k$ はそれを引いた残り——$\mathbf{a}_k$
->からすでに正規直交化した部分空間への成分を除いた、純粋に新しい方向の部分。
+>$\mathbf{u}_k$ はそれを引いた残り（$\mathbf{a}_k$
+>からすでに正規直交化した部分空間への成分を除いた、純粋に新しい方向の部分）。
 
 **計算例（$\mathbb{R}^3$）：** $\mathbf{a}_1 = {}^t(1,1,0)$、$\mathbf{a}_2 = {}^t(1,0,1)$、$\mathbf{a}_3 = {}^t(0,1,1)$ を直交化する。
 

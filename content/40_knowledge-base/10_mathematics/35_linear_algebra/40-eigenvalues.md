@@ -311,7 +311,7 @@ $$q = 2|y_1|^2 + 4|y_2|^2$$
 
 - **正定値**：$\forall \mathbf{x} \neq \mathbf{0},\; \mathbf{x}^* A \mathbf{x} > 0$
 - **半正定値**：$\forall \mathbf{x},\; \mathbf{x}^* A \mathbf{x} \geq 0$
-- **負定値**（：$\forall \mathbf{x} \neq \mathbf{0},\; \mathbf{x}^* A \mathbf{x} < 0$
+- **負定値**：$\forall \mathbf{x} \neq \mathbf{0},\; \mathbf{x}^* A \mathbf{x} < 0$
 - **不定値**：正の値も負の値もとる
 
 であるという。$A$ が正定値であることを $A \succ 0$、半正定値を $A \succeq 0$ と書くこともある。
