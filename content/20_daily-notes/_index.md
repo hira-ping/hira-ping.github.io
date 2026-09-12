@@ -4,7 +4,7 @@ weight = 3
 chapter = true
 menuPre = "<i class='fa-solid fa-file-pen' ></i> "
 date = 2026-08-11
-lastmod = 2026-09-05
+lastmod = 2026-09-12
 +++
 ## 2026-09-12
 
