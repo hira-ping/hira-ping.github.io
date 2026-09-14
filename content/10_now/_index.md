@@ -20,6 +20,7 @@ lastmod = 2026-08-27
 - **学習**
   - 計算機科学の基礎的な理解（まずは全体像の把握から）
 - **論文読み**
+  - 📄 Dwork et al. 2006 _ Calibrating Noise to Sensitivity in Private Data Analysis  (Entry: 09-15)
   - 📄 Dinur et al. 2003 _ *Revealing information while preserving privacy* (Entry: 08-22)
   - 📄 Adam et al. 1989 _ *Security-control methods for statistical databases: a comparative study* (Entry: 08-22)
 
