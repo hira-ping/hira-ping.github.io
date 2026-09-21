@@ -4,7 +4,7 @@ weight = 2
 chapter = true
 menuPre = "<i class='fa-solid fa-bolt' ></i> "
 date = 2026-08-11
-lastmod = 2026-08-27
+lastmod = 2026-09-21
 +++
 
 ## Current Focus
@@ -20,9 +20,8 @@ lastmod = 2026-08-27
 - **学習**
   - 計算機科学の基礎的な理解（まずは全体像の把握から）
 - **論文読み**
-  - 📄 Dwork et al. 2006 _ Calibrating Noise to Sensitivity in Private Data Analysis  (Entry: 09-15)
-  - 📄 Dinur et al. 2003 _ *Revealing information while preserving privacy* (Entry: 08-22)
-  - 📄 Adam et al. 1989 _ *Security-control methods for statistical databases: a comparative study* (Entry: 08-22)
+   - [ ] 📄 Dwork et al. 2006 _ Calibrating Noise to Sensitivity in Private Data Analysis  (Entry: 09-15)
+   - [ ]  📄 Adam et al. 1989 _ *Security-control methods for statistical databases: a comparative study* (Entry: 08-22)
 
 ### 📅 To Do (Want to Do)
 - **数学の学習・復習**
@@ -47,8 +46,11 @@ lastmod = 2026-08-27
   - 専門
   - [ ] 確率論の学習 (Entry: 2026-08-11)
   - [ ] 計算機科学の学習 (Entry: 2026-08-11)
+- **その他**
+  - [ ] 定理証明支援言語 Lean について調べる (Entry: 2026-09-12)
 
 ### 🎉 Recent Done
+- [x] 📄 Dinur et al. 2003 _ *Revealing information while preserving privacy* (Entry: 08-22, Done: 2026-09-14)
 - [x] 基本的な代数的構造の復習 (代数学-1)(Done: 2026-08-23)
 - [x] 数体系の構成 (集合論-1)の復習 (Done: 2026-08-11)
 - [x] 数学の共通基盤の復習(Done: 2026-08-08)
