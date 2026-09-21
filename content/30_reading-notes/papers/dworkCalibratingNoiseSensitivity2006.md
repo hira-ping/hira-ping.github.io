@@ -1,17 +1,10 @@
 +++
-
 title = "Dwork et al. 2006 _ Calibrating Noise to Sensitivity in Private Data Analysis"
-
 date = 2026-09-15
-
 lastmod = 2026-09-15
-
 weight = 10
-
 chapter = false
-
 citekey = "dworkCalibratingNoiseSensitivity2006"
-
 +++
 
 > **Title**: Calibrating Noise to Sensitivity in Private Data Analysis
