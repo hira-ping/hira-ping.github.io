@@ -2,7 +2,7 @@
 title = "一階述語論理の記法と推論規則"
 weight = 10
 date = 2026-08-06
-lastmod = 2026-08-23
+lastmod = 2026-09-23
 +++
 
 数学の各分野の証明を読む際に、「この推論ステップは本当に正当化されるのか」という疑問に立ち返るためのリファレンス。一階述語論理の記法と推論規則をダイジェストとしてまとめる。形式的な体系の詳細（モデル、健全性・完全性定理など）は続きのノートで扱う（予定）。
@@ -218,6 +218,7 @@ $\vdash \neg \neg \phi \leftrightarrow \phi$。
 - $\vdash \exists v, \forall w, \phi \rightarrow \forall w, \exists v, \phi$
 
 > **注:** 逆向き $\vdash \forall w, \exists v, \phi \rightarrow \exists v, \forall w, \phi$ は一般には成立しない。たとえば実数上で「任意の $x$ に対してある $y$ が存在して $y > x$」は真だが、「すべての $x$ より大きい $y$ が一つ存在する」は偽である。量化記号の順序には常に注意が必要である。
+> 参考: [一様収束 $\Rightarrow$ 各点収束の補足説明](40_knowledge-base/10_mathematics/40_analysis/55-uniform-convergence/#%E4%B8%80%E6%A7%98%E5%8F%8E%E6%9D%9F--%E5%90%84%E7%82%B9%E5%8F%8E%E6%9D%9F%E3%81%AE%E8%A3%9C%E8%B6%B3%E8%AA%AC%E6%98%8E)
 
 ---
 
@@ -292,10 +293,10 @@ $\phi_n$ を証明の**結論**という。前提集合 $\Gamma$ からの $\phi
 
 量化記号の直後に条件を付ける略記がよく使われる。展開すると以下のようになる。
 
-| 略記 | 展開形 |
-| :--- | :--- |
+| 略記                         | 展開形                                       |
+| :------------------------- | :---------------------------------------- |
 | $\forall x \in A, \phi(x)$ | $\forall x,(x \in A \rightarrow \phi(x))$ |
-| $\exists x \in A, \phi(x)$ | $\exists x,(x \in A \land \phi(x))$ |
+| $\exists x \in A, \phi(x)$ | $\exists x,(x \in A \land \phi(x))$       |
 
 $\forall$ と $\exists$ で論理記号が異なることに注意：全称量化では条件が含意（$\rightarrow$）で結ばれ、存在量化では論理積（$\land$）で結ばれる。直感的には、$\forall x \in A$ は「$A$ の外の $x$ については何も主張しない」ので含意が自然であり、$\exists x \in A$ は「$A$ の中に条件を満たす $x$ が存在する」ので論理積が自然である。
 
