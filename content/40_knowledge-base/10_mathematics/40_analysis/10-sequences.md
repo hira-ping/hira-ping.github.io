@@ -50,7 +50,7 @@ $$a_n \to -\infty \iff \forall M \in \mathbb{R} , \exists N \in \mathbb{N} , \fo
 
 $+\infty, -\infty$ は実数ではなく、あくまで「どこまでも大きく（小さく）なる」という挙動の記述である。
 
-<hr style="border: none; height: 2px; background: linear-gradient(to right, transparent, #94a3b8, transparent); margin: 3rem 0;">
+---
 
 ## 極限の基本性質
 
@@ -199,7 +199,7 @@ $L$ が最小の上界であること： 任意の $\varepsilon > 0$ に対し�
 
 有界な実数列は収束する部分列をもつ。
 
-**証明（区間縮小法を利用）.** $(a_n)$ を有界とし、$a_n \in [c, d]$ とする。$[c, d]$ を二等分し、無限個の項を含む半分を $[a_1, b_1]$ とする。これを繰り返すと閉区間の列 $[a_k, b_k]$ で $b_k - a_k = (d-c)/2^k \to 0$ が得られる。区間縮小法より $\bigcap_k [a_k, b_k] = \\{L\\}$。各 $[a_k, b_k]$ に含まれる項を選んで部分列をつくると、それは $L$ に収束する。$\square$
+**証明（区間縮小法を利用）.** $(a_n)$ を有界とし、$a_n \in [c, d]$ とする。$[c, d]$ を二等分し、無限個の項を含む半分を $[a_1, b_1]$ とする。これを繰り返すと閉区間の列 $[a_k, b_k]$ で $b_k - a_k = (d-c)/2^k \to 0$ が得られる。区間縮小法より $\bigcap_k [a_k, b_k] = \{L\}$。各 $[a_k, b_k]$ に含まれる項を選んで部分列をつくると、それは $L$ に収束する。$\square$
 
 ### 定理8：コーシーの収束判定法
 
